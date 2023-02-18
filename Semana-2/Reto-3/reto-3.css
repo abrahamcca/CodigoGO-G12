@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 17px;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 340px;
+    border-radius: 16px;
+}
+
+.imagen {
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.crypto {
+    display: inline-flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.reloj {
+    display: inline-flex;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.eth {
+    display: inline-flex;
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+
+.tiempo {
+    display: inline-flex;
+    margin-left: 5px;
+}
+
+.foot {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+}
+
+h3 {
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+span {
+    color: #fff;
+}
+
+.perfil {
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: white;
+
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
